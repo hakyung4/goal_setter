@@ -1,0 +1,29 @@
+{
+  "name": "set_goal",
+  "version": "1.0.0",
+  "description": "MERN stack app for goal setter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hakyung4/set_goals.git"
+  },
+  "author": "Peter Yun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakyung4/set_goals/issues"
+  },
+  "homepage": "https://github.com/hakyung4/set_goals#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
